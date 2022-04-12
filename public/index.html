@@ -12,13 +12,13 @@
 			content="Страница лендинга для компании 'Путешествуй просто'."
 		/>
 
-		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		<link rel="manifest" href="../public/manifest.json" />
 	</head>
 
 	<body>
-		<header class="header">
-			<button class="go-top-button header-button">&#8593</button>
-			
+		<header>
+			<button class="go-top-button header-button">&#8593;</button>
+
 			<div class="brand-box">
 				<span class="brand">Путешествуй просто</span>
 			</div>
@@ -26,15 +26,44 @@
 			<div class="main-header">
 				<h1 class="main-header-text">
 					<span class="header-first-text">Самые лучшие туры</span>
-					<span class="header-second-text">А также 'горящие' предложения!</span>
+					<span class="header-second-text"
+						>А также 'горячие' предложения!</span
+					>
 
-					<button class="main-header-button header-button" onclick="learnMore">Узнать больше</a>
+					<button
+						class="main-header-button header-button"
+						onclick="learnMore"
+					>
+						Узнать больше
+					</button>
 				</h1>
 			</div>
 		</header>
 
 		<div id="root"></div>
 
-		<footer></footer>
+		<footer>
+			<div class="hover-button"></div>
+
+			<div class="main-container">
+				<div class="main-subcontainer">
+					<div class="general-text">
+						<div class="text" style="text-align: center; margin-top: 0.25%; display: inline-block;">
+							<ul style="list-style: none; direction: ltr; display: flex; gap: 15px; margin-right: 40px;">
+								<li><a href="../resources/Content/Contacts.txt">Контакты</a></li>
+								<li><a href="../resources/Content/AboutCompany.txt">О компании</a></li>
+								<li><a href="../resources/Content/Benefits.txt">Плюсы</a></li>
+								<li><a href="../resources/Content/HotToursFeatures.txt">Особенности 'горячих' туров</a></li>
+								<li><a href="../resources/Content/Review.txt">Обзоры</a></li>
+							</ul>
+						</div>
+
+						<div class="text" style="float: right; margin-top: 2.5%; margin-right: 5px;">
+							&copy; Компания 'Путешествуй просто'.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
