@@ -1,0 +1,9 @@
+.aside-block {
+    max-width: 20%;
+    margin-top: 50px;
+}
+
+.aside-block img {
+    max-width: 90%;
+    margin-left: 25px;
+}

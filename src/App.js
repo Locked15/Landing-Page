@@ -1,6 +1,10 @@
+import React from 'react';
+import ThreeColumns from './Body/ThreeColumns';
+
 function App() {
   return (
-    <span />
+    <ThreeColumns>
+    </ThreeColumns>
   );
 }
 

@@ -71,7 +71,7 @@ code {
 header {
 	width: 100%;
 	height: 100vh;
-	background-image: url("../resources/Images/4995833-plyazh-shezlongi-okean-rayskoe-mesto-letniy-otdyh-ekzotika-otpusk-uspokaivayuschie-iyul.jpg");
+	background-image: url("resources/Images/4995833-plyazh-shezlongi-okean-rayskoe-mesto-letniy-otdyh-ekzotika-otpusk-uspokaivayuschie-iyul.jpg");
 	background-size: cover;
 	background-position: top;
 	position: relative;
@@ -188,5 +188,38 @@ footer .text {
 	color: azure;
 	font-size: 20px;
 	font-family: Garamond, serif;;
+}
+/* #endregion */
+
+/* #region Стили галереи (боковые элементы и основная галерея). */
+
+/* Стиль для галереи. */
+.gallery figure {
+	display: inline-block;
+	width: 90%;
+	position: relative;
+	margin: 5px;
+}
+
+/* Стиль для надписи картинки. */
+.gallery figcaption {
+	position: absolute;
+	top: 67.5%;
+	bottom: 15%;
+	margin-left: 15%;
+
+	opacity: 0;
+
+	background-color: rgba(220, 220, 220, 0.8);
+	padding: 5px;
+	transition: opacity 0.8s ease-out;
+
+	text-align: center;
+	width: 72.5%;
+}
+
+/* Стиль наведения на картинку. */
+.gallery figure:hover figcaption {
+	opacity: 1;
 }
 /* #endregion */

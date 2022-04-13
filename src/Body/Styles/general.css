@@ -1,0 +1,33 @@
+.header-text {
+    text-align: center;
+    font-family: Garamond, serif;
+    letter-spacing: 3.5px;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+p {
+    text-align: center;
+    font-family: Garamond, serif;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img.half {
+    max-width: 50%;
+    margin: 15px;
+}
+
+img.right {
+    float: right;
+}
+
+.mainThreeSlidesDesign {
+    display: flex;
+    flex: 1 1 250px;
+    margin: 10px;
+    gap: 25px;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
