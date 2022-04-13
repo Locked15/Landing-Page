@@ -1,3 +1,21 @@
+/* #region Стили контейнеров. */
+
+main div {
+    max-width: 100%;
+}
+
+.mainThreeSlidesDesign {
+    display: flex;
+    flex: 1 1 250px;
+    margin: 10px;
+    gap: 25px;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+/* #endregion */
+
+/* #region Стили текста. */
+
 .header-text {
     text-align: center;
     font-family: Garamond, serif;
@@ -13,6 +31,9 @@ p {
     font-size: 20px;
     font-weight: 400;
 }
+/* #endregion */
+
+/* #region Стили изображений. */
 
 img.half {
     max-width: 50%;
@@ -23,11 +44,21 @@ img.right {
     float: right;
 }
 
-.mainThreeSlidesDesign {
-    display: flex;
-    flex: 1 1 250px;
-    margin: 10px;
-    gap: 25px;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
+img.left {
+    float: left;
 }
+/* #endregion */
+
+/* #region Стили списков. */
+
+.features-list {
+    list-style: upper-roman;
+    font-size: 24px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+.features-list li {
+    margin-bottom: 15px;
+}
+/* #endregion */

@@ -2,6 +2,7 @@
 
 body {
 	margin: 0;
+	overflow-x: hidden;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
 		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
 		"Helvetica Neue", sans-serif;
@@ -13,25 +14,17 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+.border-right {
+	border-right: 2px solid black;
+}
+
+.border-left {
+	border-left: 2px solid black;
+}
 /* #endregion */
 
 /* #region Стили заголовка страницы. */
-
-/* Стиль для кнопки возвращения наверх страницы. */
-.go-top-button {
-	position: -webkit-sticky;
-	position: sticky;
-	top: -10;
-	border-radius: 25px;
-	background-color: azure;
-	font-weight: bold;
-	color: black;
-	float: right;
-	margin: 25px;
-	line-height: 250%;
-	width: 2%;
-	border: none;
-}
 
 /* Стиль для центральной кнопки заголовка. */
 .main-header-button {
@@ -189,6 +182,20 @@ footer .text {
 	font-size: 20px;
 	font-family: Garamond, serif;;
 }
+
+/* Стиль для кнопки возвращения наверх страницы. */
+.go-top-button {
+	top: 25px;
+	border-radius: 25px;
+	background-color: azure;
+	font-weight: bold;
+	color: black;
+	margin: 25px;
+	line-height: 250%;
+	width: 65%;
+	border: 1.5px solid black;
+	z-index: 99;
+}
 /* #endregion */
 
 /* #region Стили галереи (боковые элементы и основная галерея). */
@@ -204,9 +211,8 @@ footer .text {
 /* Стиль для надписи картинки. */
 .gallery figcaption {
 	position: absolute;
-	top: 67.5%;
-	bottom: 15%;
 	margin-left: 15%;
+	margin-top: 5%;
 
 	opacity: 0;
 
@@ -222,5 +228,17 @@ footer .text {
 /* Стиль наведения на картинку. */
 .gallery figure:hover figcaption {
 	opacity: 1;
+}
+/* #endregion */
+
+/* #region Медиазапросы. */
+@media (max-width: 780px) {
+	.border-left {
+		border-left: none;
+	}
+
+	.border-right {
+		border-right: none;
+	}
 }
 /* #endregion */

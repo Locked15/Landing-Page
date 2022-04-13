@@ -3,7 +3,7 @@ import './Styles/general.css';
 
 function AboutCompany() {
     return (
-        <div id="aboutCompany" style={{maxWidth: '57.25%'}}>
+        <div>
             <hr/>
 
             <article>
@@ -25,6 +25,9 @@ function AboutCompany() {
                     платите никаких дополнительных комиссий и сборов, Вы
                     бронируете тур по цене туроператора.
                 </p>
+
+                { /* Так как изображение слишком большое, текст займет только половину его высоты. Поэтому нужен разрыв. */ }
+                <br clear='all'/>
             </article>
         </div>
     );

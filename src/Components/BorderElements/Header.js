@@ -3,15 +3,14 @@ import '../../index.css';
 
 function Header() {
     function learnMore() {
-        alert('Click.');
+       var element = document.getElementById('features');
+       element.scrollIntoView({ behavior: "smooth" });
     }
 
     return (
         <header>
-            <button className="go-top-button header-button">&#8593;</button>
-
             <div className="brand-box">
-                <span className="brand">Путешествуй просто</span>
+                <span id="header-brand" className="brand">Путешествуй просто</span>
             </div>
 
             <div className="main-header">

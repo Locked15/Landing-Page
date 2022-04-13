@@ -2,7 +2,7 @@ import React from 'react';
 
 function RightSideGalleryElements() {
     return (
-		<aside className="aside-block gallery">
+		<aside className="aside-block gallery border-left">
 			<figure>
 				<img src={require('../../resources/Images/1379633194_orel.jpg')} alt='Орёл.'/>
 

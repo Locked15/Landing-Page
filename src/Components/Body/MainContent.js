@@ -1,9 +1,14 @@
 import React from 'react';
 import AboutCompany from './AboutCompany';
+import HotToursFeatures from './HotToursFeatures';
 
 function MainContent() {
     return (
-        <AboutCompany />
+        <main style={{maxWidth: '57.25%'}}>
+            <AboutCompany />
+
+            <HotToursFeatures />
+        </main>
     )
 }
 
