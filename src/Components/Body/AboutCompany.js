@@ -1,9 +1,9 @@
 import React from "react";
-import '../Body/Styles/general.css';
+import './Styles/general.css';
 
 function AboutCompany() {
     return (
-        <div id="aboutCompany" style={{maxWidth: '60%'}}>
+        <div id="aboutCompany" style={{maxWidth: '57.25%'}}>
             <hr/>
 
             <article>
@@ -14,7 +14,7 @@ function AboutCompany() {
                     Мы сделали выбор и покупку тура максимально удобным для Вас.
                 </p>
 
-                <img src={require('../resources/Images/Beauty-Photo.jpg')} className="half right" alt="AboutCompany"/>
+                <img src={require('../../resources/Images/Beauty-Photo.jpg')} className="half right" alt="AboutCompany"/>
                 <p>
                     В нашем поиске можно найти путешествия от 80-ти
                     туроператоров. Оплата туров происходит через защищенные

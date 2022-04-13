@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Header from "./BorderElements/Header";
+import Header from "./Components/BorderElements/Header";
 import App from "./App";
-import Footer from "./BorderElements/Footer";
+import Footer from "./Components/BorderElements/Footer";
 
 ReactDOM.render(
     <React.StrictMode>

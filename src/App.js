@@ -1,5 +1,5 @@
 import React from 'react';
-import ThreeColumns from './Body/ThreeColumns';
+import ThreeColumns from './Components/Body/ThreeColumns';
 
 function App() {
   return (

@@ -215,6 +215,7 @@ footer .text {
 	transition: opacity 0.8s ease-out;
 
 	text-align: center;
+	height: fit-content;
 	width: 72.5%;
 }
 
