@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/general.css";
+import "../Styles/general.css";
 
 function AboutCompany() {
 	return (
@@ -15,7 +15,7 @@ function AboutCompany() {
 				</p>
 
 				<img
-					src={require("../../resources/Images/Beauty-Photo.jpg")}
+					src={require("../../../resources/Images/Beauty-Photo.jpg")}
 					className='half right'
 					alt='AboutCompany'
 				/>

@@ -32,7 +32,19 @@ function RightSideGalleryElements() {
 				<img src={require('../../resources/Images/111-1-1.jpg')} alt='Лодочный курорт.'/>
 
 				<figcaption>Здесь много лодок!</figcaption>
-			</figure>                        
+			</figure>
+
+			<figure>
+				<img src={require('../../resources/Images/23d68b79113b6e348ab17e95500a16cf.jpg')} alt='Замки.'/>
+
+				<figcaption>Каждая страна столь индивидуальна.</figcaption>
+			</figure>
+
+			<figure>
+				<img src={require('../../resources/Images/11-1024x768.jpg')} alt='Медитация.'/>
+
+				<figcaption>Так зачем ограничиваться одной страной?</figcaption>
+			</figure>
 		</aside>
 	);
 }

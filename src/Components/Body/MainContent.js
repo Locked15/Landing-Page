@@ -1,7 +1,7 @@
 import React from 'react';
-import AboutCompany from './AboutCompany';
-import Benefits from './Benefits';
-import HotToursFeatures from './HotToursFeatures';
+import AboutCompany from './Company/AboutCompany';
+import Benefits from './Company/Benefits';
+import HotToursFeatures from './InfoAboutTours/HotToursFeatures';
 
 function MainContent() {
     return (
@@ -10,6 +10,7 @@ function MainContent() {
             <Benefits />
 
             <HotToursFeatures />
+            
         </main>
     )
 }

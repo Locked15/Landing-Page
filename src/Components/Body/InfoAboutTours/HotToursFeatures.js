@@ -1,5 +1,5 @@
 import React from "react";
-import "../Body/Styles/general.css";
+import "../../Body/Styles/general.css";
 
 function HotToursFeatures() {
 	return (

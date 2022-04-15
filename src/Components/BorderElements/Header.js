@@ -17,7 +17,7 @@ function Header() {
                 <h1 className="main-header-text">
                     <span className="header-first-text">Самые лучшие туры</span>
                     <span className="header-second-text">
-                        А также 'горячие' предложения!
+                        А также 'горящие' предложения!
                     </span>
 
                     <button

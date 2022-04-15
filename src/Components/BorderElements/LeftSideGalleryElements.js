@@ -32,7 +32,19 @@ function LeftSidesGalleryElement() {
 				<img src={require('../../resources/Images/Rossiya-1.jpg')} alt='Москва.'/>
 
 				<figcaption>Москва.</figcaption>
-			</figure>                        
+			</figure>
+
+			<figure>
+				<img src={require('../../resources/Images/goryashchiye-tury-na-Kubu.jpg')} alt='Куба.'/>
+
+				<figcaption>Куба.</figcaption>
+			</figure>
+
+			<figure>
+				<img src={require('../../resources/Images/e644b78ea1be3d6b00d6a109f5621f8b.jpg')} alt='Неожиданность.'/>
+
+				<figcaption>Путешествия могут принести множество неожиданностей.</figcaption>
+			</figure>               
 		</aside>
 	);
 }
