@@ -221,8 +221,8 @@ footer .text {
 }
 
 /* Стиль для надписи картинки. */
-.gallery figcaption {
-	position: absolute;
+.gallery figure figcaption {
+	position: relative;
 	margin-left: 15%;
 	margin-top: 5%;
 
@@ -240,6 +240,24 @@ footer .text {
 /* Стиль наведения на картинку. */
 .gallery figure:hover figcaption {
 	opacity: 1;
+}
+
+/* Стиль для галерей с вариантами туров. */
+.flex-gallery {
+	display: flex;
+	flex: 1 1;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+	left: 50%;
+	right: 50%;
+	gap: 5%;
+}
+
+/* Стиль для надписей в галереях с турами. */
+.flex-gallery figure figcaption {
+	margin-top: -17.5%;
+	background-color: rgba(220, 240, 180, 0.8);
 }
 /* #endregion */
 

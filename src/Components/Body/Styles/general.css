@@ -28,6 +28,14 @@ main div {
     font-weight: 500;
 }
 
+.subheader-text {
+    text-align: center;
+    font-family: Garamond, serif;
+    letter-spacing: 2.25px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
 p {
     text-align: center;
     font-family: Garamond, serif;
