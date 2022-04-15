@@ -7,7 +7,7 @@ function Footer() {
 			<div className='hover-button'></div>
 
 			<div className='main-container'>
-				<div className='main-subcontainer'>
+				<div>
 					<div className='general-text'>
 						<div
 							className='text'
@@ -35,7 +35,12 @@ function Footer() {
 								marginRight: "5%",
 							}}
 						>
-							&copy; Компания 'Путешествуй просто'.
+							<a
+								title='Нажмите для получения дополнительной информации.'
+								onClick={getInfoAboutCompany}
+							>
+								&copy; Компания 'Путешествуй просто'.
+							</a>
 						</div>
 					</div>
 				</div>
@@ -46,6 +51,14 @@ function Footer() {
 
 function scrollToTop() {
 	window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function getInfoAboutCompany() {
+	alert(
+		"Адрес: г. Томск, ул. Фрунце 39;\n" +
+			"Телефон: 8-823-122-45-23;\n" +
+			"E-Mail: tourTomsk@ya.ru"
+	);
 }
 
 export default Footer;

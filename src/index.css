@@ -196,6 +196,18 @@ footer .text {
 	border: 1.5px solid black;
 	z-index: 99;
 }
+
+/* Стиль наведения мыши на кнопку перемещения наверх. */
+.go-top-button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Стиль нажатия на кнопку перемещения наверх. */
+.go-top-button:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 /* #endregion */
 
 /* #region Стили галереи (боковые элементы и основная галерея). */
