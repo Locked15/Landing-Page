@@ -1,7 +1,7 @@
 .aside-block {
     display: flex;
     flex: 1 1 250px;
-    flex-flow: row wrap;
+    flex-flow: row;
     flex-wrap: wrap;
     max-width: 20%;
     margin-top: 50px;
@@ -11,3 +11,12 @@
     max-width: 90%;
     margin-left: 25px;
 }
+
+/* #region Медиазапросы. */
+
+@media screen and (max-width: 1320px) {
+    .aside-block {
+        display: none;
+    }
+}
+/* #endregion */

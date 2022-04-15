@@ -3,7 +3,7 @@ import './Styles/style.css';
 
 function LeftSidesGalleryElement() {
 	return (
-		<aside className="aside-block gallery border-right">
+		<aside id="leftPanel" className="aside-block gallery border-right">
 			<figure>
 				<img src={require('../../resources/Images/CrimeaTours.jpg')} alt='Крым.'/>
 

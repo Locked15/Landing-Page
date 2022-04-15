@@ -5,7 +5,7 @@ import HotToursFeatures from './HotToursFeatures';
 
 function MainContent() {
     return (
-        <main style={{maxWidth: '57.25%'}}>
+        <main className='main-content'>
             <AboutCompany />
             <Benefits />
 
