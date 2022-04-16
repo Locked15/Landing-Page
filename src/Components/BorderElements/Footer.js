@@ -35,12 +35,14 @@ function Footer() {
 								marginRight: "5%",
 							}}
 						>
-							<a
+							<span
+								href="#"
 								title='Нажмите для получения дополнительной информации.'
 								onClick={getInfoAboutCompany}
+								style={{ color: 'wheat' }}
 							>
 								&copy; Компания 'Путешествуй просто'.
-							</a>
+							</span>
 						</div>
 					</div>
 				</div>

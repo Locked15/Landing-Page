@@ -3,7 +3,7 @@ import '../../index.css';
 
 function Header() {
     function learnMore() {
-       var element = document.getElementById('features');
+       var element = document.getElementById('companyBenefits');
        element.scrollIntoView({ behavior: "smooth" });
     }
 

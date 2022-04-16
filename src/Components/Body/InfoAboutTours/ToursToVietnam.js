@@ -13,7 +13,7 @@ function ToursToVietnam() {
 						alt='Вьетнам-1.'
 					/>
 
-					<figcaption>Нянчанг — 32,600Р.</figcaption>
+					<figcaption>Нянчанг — 32.600 Р.</figcaption>
 				</figure>
 
 				<figure style={{ width: "fit-content" }}>
@@ -22,7 +22,7 @@ function ToursToVietnam() {
 						alt='Вьетнам-2.'
 					/>
 
-					<figcaption>Нянчанг — 34,666Р.</figcaption>
+					<figcaption>Нянчанг — 34.666 Р.</figcaption>
 				</figure>
 
 				<figure style={{ width: "fit-content" }}>
@@ -31,7 +31,7 @@ function ToursToVietnam() {
 						alt='Вьетнам-3.'
 					/>
 
-					<figcaption>Нянчанг — 34,100Р.</figcaption>
+					<figcaption>Нянчанг — 34.100 Р.</figcaption>
 				</figure>
 			</div>
 		</div>
