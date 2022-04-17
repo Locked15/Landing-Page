@@ -11,6 +11,8 @@ import ToursToChina from "./InfoAboutTours/ToursToChina";
 import ToursToRussia from "./InfoAboutTours/ToursToRussia";
 
 import Consultants from "./LastPart/Consultants";
+import Reviews from "./LastPart/Reviews";
+import Ender from "./LastPart/Ender";
 
 function MainContent() {
 	return (
@@ -26,6 +28,8 @@ function MainContent() {
 			<ToursToRussia />
 
             <Consultants />
+            <Reviews />
+			<Ender />
 		</main>
 	);
 }

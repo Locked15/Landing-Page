@@ -96,6 +96,34 @@ img.left {
 }
 /* #endregion */
 
+/* #region Стили таблиц. */
+table.review-table {
+	width: 100%;
+	border: 0.5px solid black;
+	margin-bottom: 7.5px;
+	border-radius: 5px;
+}
+
+table.review-table tr:first-child td:first-child {
+	width: 75%;
+	border-right: 0.5px solid black;
+	text-align: center;
+}
+
+table.review-table tr td:nth-child(2) {
+	width: 25%;
+	text-align: end;
+}
+
+table.review-table tr:nth-child(2) td {
+	border-top: 0.5px solid black;
+}
+
+table.review-table tr:nth-child(2) td {
+	text-align: justify;
+}
+/* #endregion */
+
 @media screen and (max-width: 1320px) {
 	.mainThreeSlidesDesign {
 		display: flex;
