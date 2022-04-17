@@ -238,7 +238,7 @@ footer .text {
 }
 
 /* Стиль наведения на картинку. */
-.gallery figure:hover figcaption {
+.gallery img:hover + figcaption {
 	opacity: 1;
 }
 

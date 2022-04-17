@@ -1,6 +1,12 @@
 import React from "react";
 import "../../BorderElements/Styles/style.css";
 
+/**
+ * Функция, создающая подблок 'Галерея консультантов'.
+ * Создает галерею из 3 изображений консультантов со всплывающей подсказкой с их именами.
+ * 
+ * @returns Подблок 'Галерея консультантов'.
+ */
 function ConsultantsGallery() {
 	return (
 		<div>

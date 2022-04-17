@@ -1,6 +1,12 @@
 import React from "react";
 import "../../Body/Styles/general.css";
 
+/**
+ * Функция, создающая блок 'Особенности "горящих" туров'.
+ * Фактически, это 2 больших списка со своими стилями.
+ * 
+ * @returns Блок 'Особенности "горящих" туров'.
+ */
 function HotToursFeatures() {
 	return (
 		<div id="features">

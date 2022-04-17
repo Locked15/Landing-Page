@@ -1,6 +1,12 @@
 import React from "react";
 import "../../../index.css";
 
+/**
+ * Функция, создающая подблок 'Туры в Китай'.
+ * Подблок состоит из 3 изображений туров с указанием цены.
+ *
+ * @returns Подблок 'Туры в Китай'.
+ */
 function ToursToChina() {
 	return (
 		<div>

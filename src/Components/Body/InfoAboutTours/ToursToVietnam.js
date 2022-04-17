@@ -1,6 +1,12 @@
 import React from "react";
 import "../../../index.css";
 
+/**
+ * Функция, создающая подблок 'Туры во Вьетнам'.
+ * Как и прочие, состоит из 3 изображений туров с указанием цены.
+ * 
+ * @returns Подблок 'Туры во Вьетнам'.
+ */
 function ToursToVietnam() {
 	return (
 		<div>

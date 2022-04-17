@@ -14,6 +14,12 @@ import Consultants from "./LastPart/Consultants";
 import Reviews from "./LastPart/Reviews";
 import Ender from "./LastPart/Ender";
 
+/**
+ * Функция, вызываемая для отрисовки основного содержимого.
+ * Вызывает прочие функции содержимого страницы.
+ * 
+ * @returns Основное содержимое страницы.
+ */
 function MainContent() {
 	return (
 		<main className='main-content'>

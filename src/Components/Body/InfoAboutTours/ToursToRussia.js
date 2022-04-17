@@ -1,6 +1,12 @@
 import React from "react";
 import "../../../index.css";
 
+/**
+ * Функция, создающая подблок 'Туры по России'.
+ * Как и прочие, состоит из 3 изображений туров с указанием цены.
+ * 
+ * @returns Подблок 'Туры по России'.
+ */
 function ToursToRussia() {
 	return (
 		<div>

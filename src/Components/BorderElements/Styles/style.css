@@ -1,22 +1,22 @@
 .aside-block {
-    display: flex;
-    flex: 1 1 250px;
-    flex-flow: row;
-    flex-wrap: wrap;
-    max-width: 20%;
-    margin-top: 50px;
+	display: flex;
+	flex: 1 1 250px;
+	flex-flow: row;
+	flex-wrap: wrap;
+	max-width: 20%;
+	margin-top: 50px;
 }
 
 .aside-block img {
-    max-width: 90%;
-    margin-left: 25px;
+	max-width: 90%;
+	margin-left: 25px;
 }
 
 /* #region Медиазапросы. */
 
 @media screen and (max-width: 1320px) {
-    .aside-block {
-        display: none;
-    }
+	.aside-block {
+		display: none;
+	}
 }
 /* #endregion */

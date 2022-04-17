@@ -2,6 +2,13 @@ import React from "react";
 import ConsultantsGallery from './ConsultantsGallery';
 import "../Styles/general.css";
 
+/**
+ * Функция, создающая блок 'Консультанты'.
+ * В данном функции создается только описание консультантов и примечания.
+ * Все прочее (галерея) создается функцией "ConsultantsGallery".
+ * 
+ * @returns Блок 'Консультанты'.
+ */
 function Consultants() {
 	return (
 		<div>
@@ -27,17 +34,30 @@ function Consultants() {
 	);
 }
 
+/**
+ * Получает элемент с текстом первого примечания по его ID и отправляет его в функцию 'selectContent'.
+ */
 function toFirstRemark() {
     selectContent(document.getElementById('firstRemark'));
 }
 
+/**
+ * Получает элемент с текстом второго примечания по его ID и отправляет его в функцию 'selectContent'.
+ */
 function toSecondRemark() {
     selectContent(document.getElementById('secondRemark'));
 }
 
+/**
+ * 'Общая' функция выделения примечания.
+ * Не только выделяет текст самого примечания, но ещё и прокручивает экран до его позиции.
+ * 
+ * @param {HTMLObjectElement} toSelect Примечание, текст которого нужно выбрать и прокрутить до его позиции. 
+ */
 function selectContent(toSelect) {
-    var selected = window.getSelection();
+	toSelect.scrollIntoView({ behavior: 'smooth' });
 
+    var selected = window.getSelection();
     selected.selectAllChildren(toSelect);
 }
 

@@ -5,14 +5,15 @@ import Header from "./Components/BorderElements/Header";
 import App from "./App";
 import Footer from "./Components/BorderElements/Footer";
 
+// Стартовая точка отрисовки React-приложения.
 ReactDOM.render(
-    <React.StrictMode>
-        <Header />
+	<React.StrictMode>
+		<Header />
 
-        <App />
+		<App />
 
-        <Footer />
-    </React.StrictMode>,
+		<Footer />
+	</React.StrictMode>,
 
-    document.getElementById("root"),
+	document.getElementById("root")
 );

@@ -1,6 +1,12 @@
 import React from "react";
 import "../Styles/general.css";
 
+/**
+ * Функция создающая блок 'Преимущества компании'.
+ * Основное содержимое этого блока — это сам список преимуществ.
+ * 
+ * @returns Блок 'Преимущества компании'.
+ */
 function Benefits() {
 	return (
 		<div id="companyBenefits">
