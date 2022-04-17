@@ -16,15 +16,17 @@ function ReviewElement({ props }) {
 	return (
 		<div>
 			<table className='review-table'>
-				<tr>
-					<td>{props.name}</td>
+				<tbody>
+					<tr>
+						<td>{props.name}</td>
 
-					<td>{props.date}</td>
-				</tr>
+						<td>{props.date}</td>
+					</tr>
 
-				<tr>
-					<td colSpan={2}>{props.content}</td>
-				</tr>
+					<tr>
+						<td colSpan={2}>{props.content}</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 	);

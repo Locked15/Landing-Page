@@ -22,12 +22,10 @@ function Consultants() {
 				связанный с нашей компанией и предоставляемыми нами услугами.
 			</p>
 
-            <p className="clarification-text">
-            <ol>
+			<ol className="clarification-text">
                 <li id="firstRemark" value={1}>За использование услуг консультантов может взиматься дополнительная плата;</li>
                 <li id="secondRemark" value={2}>Кроме вопросов, определенных в сертификатах №1.9.83 — №1.9.87 и их уточнениях.</li>
             </ol>
-            </p>
 
             <ConsultantsGallery />
 		</div>
